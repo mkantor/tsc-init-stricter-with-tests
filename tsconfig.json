@@ -1,16 +1,6 @@
 {
-  "compilerOptions": {
-    "exactOptionalPropertyTypes": true,
-    "lib": ["esnext"],
-    "module": "nodenext",
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUncheckedSideEffectImports": true,
-    "outDir": "dist",
-    "rootDir": "src",
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext",
-    "verbatimModuleSyntax": true
-  }
+  "references": [
+    { "path": "./tsconfig.test.json" },
+    { "path": "./tsconfig.main.json" }
+  ]
 }
